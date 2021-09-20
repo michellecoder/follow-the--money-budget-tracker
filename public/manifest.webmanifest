@@ -1,0 +1,21 @@
+{
+    "name": "Follow-The-Money-Budget-Tracker",
+    "short_name": "budget",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#fff",
+    "display": "standalone",
+    "icons": [{
+            "src": "icons/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+
+    ]
+}
