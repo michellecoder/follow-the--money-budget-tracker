@@ -18,7 +18,7 @@ request.onsuccess = function(event) {
 };
 
 request.onerror = function(event) {
-
+    // log error here
     transaction.onerror = function(event) {
         console.log(error);
     };
@@ -65,5 +65,5 @@ function checkDatabase() {
     };
 }
 
-
+// listen for app coming back online
 window.addEventListener('online', checkDatabase);
